@@ -12,7 +12,11 @@ cook(materials[1], materials[0])
 console.log('MEALS:')
 console.log('---------------')
 for (const meal of meals) {
-    console.log(meel)
+    console.log(meals)
 }
 
 
+
+//- What should the parameter(s) for the cook function be to account for any number of ingredients?
+//- How do we pass in the specific ingredients to the function?
+//- How can we check for the specific ingredients?

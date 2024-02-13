@@ -5,6 +5,18 @@
 
 Link has a bunch of ingredients and he want’s to experiment and see what kinds of meals he can make with them. He knows for sure that when he cooks `Hylian Rice` with a `Big Hearty Truffle` that he gets `Mushroom Rice Balls`, but for some reason he’s not seeing it in his meals…
 
+
+// Marceline - Three objectives
+// Add ingredients (add to array)
+// Add recipes
+// Add or modify function to allow more than two ingredients
+
+// Joe - 4 if.. else statements for the meal combinations | if __ && __ meals.push__ 
+
+
+// Meal should be initialized as an empty array 
+// if ingredient = BHT && Hylian Rice, meals.push = Mushroom Rice Balls
+
 On his travels, he found some recipes on the walls of the stables he’s visited:
 
 - `Hateno Cheese` and a `Bird Egg` will make a `Cheesy Omlette`
@@ -15,14 +27,24 @@ On his travels, he found some recipes on the walls of the stables he’s visited
 
 Link found some more materials in the Tabantha Frontier, he also stopped in Rito village to buy a few items. Add the following items to his materials array:
 
-`'Goat Butter', 'Fresh Milk', 'Cane Sugar', 'Raw Bird Thigh'`
+`'Goat Butter', 'Fresh Milk', 'Cane Sugar', 'Raw Bird Thigh'`     // directly add into materials array 
 
 Link has also learned a few new recipes:
 
-- `Fresh Milk`, `Cane Sugar`, and a `Bird Egg` will make `Egg Pudding`
+- `Fresh Milk`, `Cane Sugar`, and a `Bird Egg` will make `Egg Pudding`                        // need a new function to handle multiple differnt materials 
 - `Tabantha Wheat`, `Cane Sugar`, `Goat Butter`, and a `Bird Egg` will make an `Egg Tart`
 - `Hylian Rice`, `Raw Prime Meat`, and a `Bird Egg` will make `Chicken Egg Fried Rice`
 - `Hylian Rice`, `Goat Butter`, a `Bird Egg` and a `Raw Bird Thigh` will make `Poultry Pilaf`
+
+array [egg pudding, meal2, meal3]
+
+
+// use an object to handle   meals {
+    egg pudding:"ing1", "ing2",
+    
+meals array[0]: ingrdients [2],[4]
+}
+
 
 Notice how these recipes require more than one ingredient. Some require three, some require four, and the previous recipes still only require two. Discuss with your team how you can update the existing function. You may need to practice your googling skills 😉
 
@@ -31,3 +53,9 @@ Notice how these recipes require more than one ingredient. Some require three, s
 - What should the parameter(s) for the cook function be to account for any number of ingredients?
 - How do we pass in the specific ingredients to the function?
 - How can we check for the specific ingredients?
+
+//WilliamSTETAR
+// novo
+
+// end goal: take the users input as to what meal they want and output the ingredients 
+// log out the meals at the start of the code and 
