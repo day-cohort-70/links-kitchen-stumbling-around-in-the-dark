@@ -1,13 +1,20 @@
-const materials = ['Hylian Rice', 'Big Hearty Truffle', 'Tabantha Wheat', 'Raw Prime Meat', 'Hateno Cheese', 'Bird Egg']
+
 const meals = []
 
-const cook = (firstIngredient, secondIngredient) => {
+/*const cook = (firstIngredient, secondIngredient) => {
     if (firstIngredient === 'Hylian Rice' && secondIngredient === 'Big Hearty Radish') {
-        meals.push('Mushroom Rice Balls')
+       
+       
+        meals.push('Mushroom Rice Balls')  // Adds new meal to links backpack aka meals array
     }
+}*/
+
+function cook(ingredientsArray){
+
 }
 
-cook(materials[1], materials[0])
+
+//cook(materials[1], materials[0])
 
 console.log('MEALS:')
 console.log('---------------')

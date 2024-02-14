@@ -1,6 +1,48 @@
 // 1.Add new found ingredients to the materials array (line 3) /!
 // 2. make recipes as objects
+/*recipes[
+    {id: 1, mealName: name, ingredients:[]}
+    {another object}
+]
+  
+// 3. modify cook function to take any number of parameters
+cook(array)
 
+
+
+
+
+
+
+
+const materials = ['Hylian Rice', 'Big Hearty Truffle', 'Tabantha Wheat', 'Raw Prime Meat',
+ 'Hateno Cheese', 'Bird Egg', 'Goat Butter', 'Fresh Milk', 'Cane Sugar',
+ 'Raw Bird Thigh', 'Goat Butter', 'Fresh Milk', 'Cane Sugar', 'Raw Bird Thigh']
+
+const possibleMeals = ['Cheesy Omlette'{
+    constituents: materials[1,2]
+}
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+list out the meals you can cook 
+final: Take users input as to what meal they want then output the ingredients 
+
+
+
+
+*/
 const materials = ['Hylian Rice', 'Big Hearty Truffle', 'Tabantha Wheat', 'Raw Prime Meat', 'Hateno Cheese', 'Bird Egg', 'Goat Butter', 'Fresh Milk', 'Cane Sugar', 'Raw Bird Thigh']
 // add meals to meals array with .push()
 const meals = []
