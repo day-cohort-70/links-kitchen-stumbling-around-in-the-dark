@@ -1,4 +1,6 @@
 
+const { materials, recipes } = require("./dataBase.js")
+
 const meals = []
 
 /*const cook = (firstIngredient, secondIngredient) => {
