@@ -1,5 +1,4 @@
-const { materials, recipes } = require("./dataBase.js")
-
+const { materials, recipes, meals } = require("./dataBase.js")
 
 
 function tryToCook(ingredients){
@@ -18,7 +17,8 @@ function tryToCook(ingredients){
                     stillRightMeal = false;
             }
             if (stillRightMeal === true){
-                return meal.mealName         // 11:55aM - fIRST SUCCESSFUL OUTPUT 
+                meals.push(meal.mealName)    
+                return  meal.mealName // 11:55aM - fIRST SUCCESSFUL OUTPUT 
             } 
             }
                     
@@ -26,7 +26,7 @@ function tryToCook(ingredients){
     console.log("Burned your food! OOF!")
 }
 
-console.log(tryToCook(['Hylian Rice', 'Big Hearty Truffle']))
+//console.log(tryToCook(['Hylian Rice', 'Big Hearty Truffle']))
 
 
-
+module.exports = { tryToCook, meals}

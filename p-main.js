@@ -1,3 +1,7 @@
+const { tryToCook, meals } = require(./functions.js)
+
+
+
 // 1.Add new found ingredients to the materials array (line 3) /!
 // 2. make recipes as objects
 /*recipes[
@@ -25,14 +29,6 @@ const possibleMeals = ['Cheesy Omlette'{
 
 
 ]
-
-
-
-
-
-
-
-
 
 
 

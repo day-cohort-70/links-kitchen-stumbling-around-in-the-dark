@@ -1,5 +1,6 @@
 // IT'S ALIVE
 
+const meals = []
 
 const materials = ['Hylian Rice', 'Big Hearty Truffle', 'Tabantha Wheat', 'Raw Prime Meat',
  'Hateno Cheese', 'Bird Egg', 'Goat Butter', 'Fresh Milk', 'Cane Sugar',
@@ -32,4 +33,4 @@ const recipes = [
         {id: 8, mealName: "Mushroom Rice Balls", ingredients: materials[0, 1]}
 ]*/
 
-module.exports = {materials, recipes}
+module.exports = {materials, recipes, meals}
